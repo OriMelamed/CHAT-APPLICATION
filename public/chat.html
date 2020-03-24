@@ -8,7 +8,6 @@
     <body>
         <div class="chat">
             <div id="sidebar" class="chat__sidebar">
-
             </div>
             <div class="chat__main">
                 <div id="messages" class="chat__messages"></div>
@@ -21,6 +20,9 @@
                     <button id="send-location">Send location</button>
                 </div>
             </div>
+            <form class="Logout" action="/index.html">
+                <button> Logout</button>
+            </form>
         </div>
 
         <script id="message-template" type="text/html">
@@ -52,7 +54,6 @@
                     </li>
                 {{/users}}
             </ul>
-
         </script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
